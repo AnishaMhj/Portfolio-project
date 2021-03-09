@@ -1,0 +1,52 @@
+
+/* FONT STYLES
+=======================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+:root{
+    --primary-white: #fff;
+}
+
+
+body{
+    font-family: "Roboto Condensed" sans-serif;
+}
+
+/* NAVBAR
+=======================================*/
+
+.navbar-brand{
+    max-width: 17.25rem;
+    padding: 0 !important;
+    height: 2rem;
+
+}
+
+.logo{
+    width: 5rem;
+  }
+  
+  nav{
+    a.nav-link{
+    //   font-weight: 500;
+      letter-spacing: 0.0375rem;
+    }
+
+    ul{
+        li{
+            text-transform: uppercase;
+           
+        }
+    }
+
+    .navbar-nav{
+        li{
+            a{
+                margin-right: 0.75rem;
+                margin-left: 0.75rem;
+                color: var(--primary-white) !important;
+            }
+        }
+    }
+  }
