@@ -5,6 +5,8 @@
   --primary-white: #fff;
   --primary-orange: #f9ab00;
   --primary-dark: rgba(255, 255, 255, 0);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
 }
 
 body {
@@ -13,6 +15,10 @@ body {
 
 /* NAVBAR
 =======================================*/
+nav {
+  z-index: 2;
+}
+
 .navbar-brand {
   max-width: 17.25rem;
   padding: 0 !important;
@@ -77,6 +83,11 @@ nav .navbar-nav li a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -101,5 +112,47 @@ nav .navbar-nav li a:hover {
 .typed-text {
   font-size: 2rem;
   color: var(--primary-white);
+}
+
+/* HEADER MAIN OFFER BUTTON
+=======================================*/
+.btn-main-offer {
+  border: 1px solid var(--primary-red);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
+  z-index: 1;
+}
+
+.btn-main-offer:hover {
+  color: var(--primary-white);
+  text-decoration: none;
+  background-color: var(--primary-hover-red);
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+/* PARTICLES JS
+=======================================*/
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  z-index: 1;
+}
+
+/*  MEDIA QUESIES
+=======================================*/
+@media only screen and (max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.5rem;
+  }
+  .particles-canvas {
+    display: none;
+  }
+  .typed-text {
+    font-size: 1.7rem;
+  }
 }
 /*# sourceMappingURL=App.css.map */
