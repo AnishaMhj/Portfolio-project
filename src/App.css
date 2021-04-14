@@ -7,8 +7,9 @@
   --primary-dark: rgb(52, 58, 64);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
-  --primary-gray: #475a63;
   --primargy-light-grey: #f4f4f4;
+  --primargy-dark-grey: #666;
+  --primargy-grey: #ccd1d9;
 }
 
 body {
@@ -236,6 +237,79 @@ nav .navbar-nav li a:hover {
   color: var(--primary-dark);
 }
 
+/* EXPERIENCE
+=======================================*/
+.experience {
+  padding: 0.7rem;
+}
+
+.experience .experience-wrapper {
+  position: relative;
+  padding: 3.125rem 0;
+  overflow: hidden;
+}
+
+.experience .experience-wrapper h1 {
+  text-transform: uppercase;
+  color: var(--primary-orange);
+}
+
+.experience .experience-wrapper::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  margin-left: -0.0625rem;
+  width: 0.125rem;
+  height: 100%;
+  background: var(--primargy-grey);
+  z-index: 1;
+}
+
+.experience .timeline-block {
+  width: calc(50% + 0.5rem);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  clear: both;
+}
+
+.experience .timeline-block-right {
+  float: right;
+}
+
+.experience .timeline-block-left {
+  float: left;
+  direction: rtl;
+}
+
+.experience .marker {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 0.3125rem solid var(--primary-dark);
+  background: var(--primary-orange);
+  z-index: 3;
+  margin-top: 0.625rem;
+  position: relative;
+}
+
+.experience .timeline-content {
+  width: 95%;
+  padding: 0 0.9375rem;
+  color: var(--primargy-dark-grey);
+  direction: ltr;
+}
+
+.experience .timeline-content h3 {
+  color: var(--primary-red);
+  margin-top: 0.3125rem;
+  font-weight: 900;
+}
+
 /*  MEDIA QUESIES
 =======================================*/
 @media only screen and (max-width: 768px) {
@@ -247,6 +321,22 @@ nav .navbar-nav li a:hover {
   }
   .typed-text {
     font-size: 1.7rem;
+  }
+  .experience .experience-wrapper {
+    padding-left: 0;
+  }
+  .experience .experience-wrapper::before {
+    left: 0.5rem;
+    margin-bottom: 1.875rem;
+  }
+  .experience .timeline-block-right {
+    float: none;
+    width: 100%;
+  }
+  .experience .timeline-block-left {
+    float: none;
+    width: 100%;
+    direction: ltr;
   }
 }
 
