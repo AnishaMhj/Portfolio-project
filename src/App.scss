@@ -14,6 +14,7 @@
     --primargy-light-grey: #f4f4f4;
     --primargy-dark-grey: #666;
     --primargy-grey: #ccd1d9;
+    --primary-black: #000;
  }
 
 
@@ -202,6 +203,7 @@ nav{
         padding: 0.625rem;
         margin-bottom: 1.875rem;
         background: var(--primary-white);
+        transition: 0.3s ease-in-out;
 
         h3{
             margin: 1rem auto;
@@ -318,6 +320,39 @@ nav{
     }
     
 }
+
+
+
+/* PORTFOLIO
+=======================================*/
+
+.portfolio-wrapper{
+    background: var(--primargy-light-grey);
+    padding: 3rem 0;
+
+    .portfolio-image-box{
+        position: relative;
+        margin: 1rem;
+    }
+
+    .portfolio-image{
+        width: 15rem;
+        border: 1px solid var(--primary-orange);
+        padding: 0 0.5rem;
+    }
+}
+
+.overflow{
+    position: absolute;
+    opacity: 0;
+    background: var(--primary-black);
+    width: 15rem;
+    height: 8rem;
+    top: 0;
+    border: 1px solid var(--primary-red);
+    cursor: pointer;
+}
+
 
 /*  MEDIA QUESIES
 =======================================*/

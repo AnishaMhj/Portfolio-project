@@ -10,6 +10,7 @@
   --primargy-light-grey: #f4f4f4;
   --primargy-dark-grey: #666;
   --primargy-grey: #ccd1d9;
+  --primary-black: #000;
 }
 
 body {
@@ -195,6 +196,8 @@ nav .navbar-nav li a:hover {
   padding: 0.625rem;
   margin-bottom: 1.875rem;
   background: var(--primary-white);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .services .box h3 {
@@ -308,6 +311,35 @@ nav .navbar-nav li a:hover {
   color: var(--primary-red);
   margin-top: 0.3125rem;
   font-weight: 900;
+}
+
+/* PORTFOLIO
+=======================================*/
+.portfolio-wrapper {
+  background: var(--primargy-light-grey);
+  padding: 3rem 0;
+}
+
+.portfolio-wrapper .portfolio-image-box {
+  position: relative;
+  margin: 1rem;
+}
+
+.portfolio-wrapper .portfolio-image {
+  width: 15rem;
+  border: 1px solid var(--primary-orange);
+  padding: 0 0.5rem;
+}
+
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: var(--primary-black);
+  width: 15rem;
+  height: 8rem;
+  top: 0;
+  border: 1px solid var(--primary-red);
+  cursor: pointer;
 }
 
 /*  MEDIA QUESIES
