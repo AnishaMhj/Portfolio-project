@@ -3,6 +3,11 @@ import rsr from "../images/rsr.png";
 import epikurean from "../images/epikurean.png";
 import gulfoil from "../images/gulfoil.png";
 
+//Font Awesome import
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faSearchPlus} from "@fortawesome/free-solid-svg-icons";
+
+
 
 
 function Portfolio() {
@@ -14,12 +19,14 @@ function Portfolio() {
                     <div className="portfolio-image-box">
                         <img className="portfolio-image" src={rsr} alt="RSR project" />
                         <div className="overflow"></div>
+                        <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
                 {/* - */}
                
                     <div className="portfolio-image-box">
                         <img className="portfolio-image" src={epikurean} alt="Epikurean project" />
                         <div className="overflow"></div>
+                        <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div> 
            
                 {/* - */}
@@ -27,9 +34,19 @@ function Portfolio() {
                     <div className="portfolio-image-box">
                         <img className="portfolio-image" src={gulfoil} alt="Gulfoil project" />
                         <div className="overflow"></div>
+                        <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
-                </div>
+                    <div className="portfolio-image-box">
+                        <img className="portfolio-image" src={epikurean} alt="Epikurean project" />
+                        <div className="overflow"></div>
+                        <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+                    </div> 
+           
                 {/* - */}
+                </div>
+               
+
+                
             </div>
         </div>
     )

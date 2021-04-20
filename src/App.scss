@@ -333,25 +333,47 @@ nav{
     .portfolio-image-box{
         position: relative;
         margin: 1rem;
-    }
 
-    .portfolio-image{
-        width: 15rem;
-        border: 1px solid var(--primary-orange);
-        padding: 0 0.5rem;
+        .portfolio-image{
+            width: 15rem;
+            border: 1px solid var(--primary-orange);
+            padding: 0.5rem;
+        }
+
+        .overflow{
+            position: absolute;
+            opacity: 0;
+            background: var(--primary-black);
+            width: 15rem;
+            height: 8rem;
+            top: 0;
+            border: 1px solid var(--primary-red);
+            cursor: pointer;
+        }
+
+        .portfolio-icon{
+            position: absolute;
+            opacity: 0;
+            margin-left: -8rem;
+            margin-top: 3.6rem;
+            color: var(--primary-orange);
+            font-size: 1.5rem;
+        }
+    }
+    
+    .portfolio-image-box:hover{
+        .overflow{
+            opacity: 60%;
+            transition: 0.3s ease-in-out;
+        }
+
+        .portfolio-icon{
+            opacity: 70%;
+            transition: 0.3s ease-in-out;
+        }
     }
 }
 
-.overflow{
-    position: absolute;
-    opacity: 0;
-    background: var(--primary-black);
-    width: 15rem;
-    height: 8rem;
-    top: 0;
-    border: 1px solid var(--primary-red);
-    cursor: pointer;
-}
 
 
 /*  MEDIA QUESIES

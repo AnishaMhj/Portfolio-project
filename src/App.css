@@ -325,13 +325,13 @@ nav .navbar-nav li a:hover {
   margin: 1rem;
 }
 
-.portfolio-wrapper .portfolio-image {
+.portfolio-wrapper .portfolio-image-box .portfolio-image {
   width: 15rem;
   border: 1px solid var(--primary-orange);
-  padding: 0 0.5rem;
+  padding: 0.5rem;
 }
 
-.overflow {
+.portfolio-wrapper .portfolio-image-box .overflow {
   position: absolute;
   opacity: 0;
   background: var(--primary-black);
@@ -340,6 +340,27 @@ nav .navbar-nav li a:hover {
   top: 0;
   border: 1px solid var(--primary-red);
   cursor: pointer;
+}
+
+.portfolio-wrapper .portfolio-image-box .portfolio-icon {
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem;
+  margin-top: 3.6rem;
+  color: var(--primary-orange);
+  font-size: 1.5rem;
+}
+
+.portfolio-wrapper .portfolio-image-box:hover .overflow {
+  opacity: 60%;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.portfolio-wrapper .portfolio-image-box:hover .portfolio-icon {
+  opacity: 70%;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 /*  MEDIA QUESIES

@@ -11,7 +11,7 @@ function Experiences() {
                     <div className="marker"></div>
                         <div className="timeline-content">
                             <h3>2016-2017</h3>
-                            <p>orem Ipsum is simply dummy text of the printing and 
+                            <p>Lorem Ipsum is simply dummy text of the printing and 
                         typesetting industry. Lorem Ipsum has been the industry's 
                         standard dummy text ever since the 1500s, when an unknown 
                         printer took a galley of type and scrambled it to make a 
@@ -25,7 +25,7 @@ function Experiences() {
                     <div className="marker"></div>
                         <div className="timeline-content">
                             <h3>2017-2018</h3>
-                            <p>orem Ipsum is simply dummy text of the printing and 
+                            <p>Lorem Ipsum is simply dummy text of the printing and 
                         typesetting industry. Lorem Ipsum has been the industry's 
                         standard dummy text ever since the 1500s, when an unknown 
                         printer took a galley of type and scrambled it to make a 
@@ -39,7 +39,7 @@ function Experiences() {
                     <div className="marker"></div>
                         <div className="timeline-content">
                             <h3>2018-2019</h3>
-                            <p>orem Ipsum is simply dummy text of the printing and 
+                            <p>Lorem Ipsum is simply dummy text of the printing and 
                         typesetting industry. Lorem Ipsum has been the industry's 
                         standard dummy text ever since the 1500s, when an unknown 
                         printer took a galley of type and scrambled it to make a 
@@ -53,7 +53,7 @@ function Experiences() {
                     <div className="marker"></div>
                         <div className="timeline-content">
                             <h3>2019-2020</h3>
-                            <p>orem Ipsum is simply dummy text of the printing and 
+                            <p>Lorem Ipsum is simply dummy text of the printing and 
                         typesetting industry. Lorem Ipsum has been the industry's 
                         standard dummy text ever since the 1500s, when an unknown 
                         printer took a galley of type and scrambled it to make a 
