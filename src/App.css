@@ -349,6 +349,7 @@ nav .navbar-nav li a:hover {
   margin-top: 3.6rem;
   color: var(--primary-orange);
   font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .portfolio-wrapper .portfolio-image-box:hover .overflow {
@@ -361,6 +362,24 @@ nav .navbar-nav li a:hover {
   opacity: 70%;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+}
+
+.portfolio-image-popupbox {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.hyperlink {
+  color: var(--primary-orange);
+  cursor: pointer;
+}
+
+.hyperlink:hover {
+  color: var(--primary-hover-red);
+}
+
+.popupbox-content p, .popupbox-content b {
+  padding: 0 0.5rem;
 }
 
 /*  MEDIA QUESIES
