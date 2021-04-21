@@ -320,6 +320,10 @@ nav .navbar-nav li a:hover {
   padding: 3rem 0;
 }
 
+.portfolio-wrapper h1 {
+  color: var(--primary-orange);
+}
+
 .portfolio-wrapper .portfolio-image-box {
   position: relative;
   margin: 1rem;
@@ -365,7 +369,7 @@ nav .navbar-nav li a:hover {
 }
 
 .portfolio-image-popupbox {
-  width: 100%;
+  width: 45rem;
   padding: 0.5rem;
 }
 
@@ -409,6 +413,9 @@ nav .navbar-nav li a:hover {
     float: none;
     width: 100%;
     direction: ltr;
+  }
+  .portfolio-image-popupbox {
+    width: 100%;
   }
 }
 

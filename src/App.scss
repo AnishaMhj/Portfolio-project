@@ -330,6 +330,10 @@ nav{
     background: var(--primargy-light-grey);
     padding: 3rem 0;
 
+    h1{
+        color: var(--primary-orange);
+    }
+
     .portfolio-image-box{
         position: relative;
         margin: 1rem;
@@ -376,7 +380,7 @@ nav{
 }
 
 .portfolio-image-popupbox{
-    width: 100%;
+    width: 45rem;
     padding: 0.5rem;
 }
 
@@ -431,10 +435,16 @@ nav{
             direction: ltr;
         }
     }
+
+    .portfolio-image-popupbox{
+        width: 100%;
+    }
 }
+
 
 @media only screen and (max-width: 468px) {
     .profile-img{
         width: 10rem;
     }
+
 }
