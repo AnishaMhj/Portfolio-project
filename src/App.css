@@ -14,6 +14,7 @@
   --primargy-grey: #ccd1d9;
   --primary-black: #000;
   --primary-transparent-black: rgba(0, 0, 0 , 0.7);
+  --primary-green: green;
 }
 
 body {
@@ -543,6 +544,17 @@ nav .navbar-nav li a:hover {
   width: 100%;
   -webkit-transition: width 0.2s ease-in-out;
   transition: width 0.2s ease-in-out;
+}
+
+.error-message {
+  color: var(--primary-white);
+  background: var(--primary-hover-red);
+  text-align: left;
+}
+
+.sucess-message {
+  font-weight: 900;
+  color: var(--primary-green);
 }
 
 /*  MEDIA QUESIES

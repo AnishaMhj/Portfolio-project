@@ -55,6 +55,8 @@ const onSubmit = (data, r) => {
                 <h1>Contact Me</h1>
                 <p>Please fill out the form and describe your project needs and 
                     I'll contact you as soon as possible. Thank you.</p>
+                 {/* hook  */}
+                <span className="sucess-message">{successMessage}</span>
             </div>      
             <div className="container">
                 <form onSubmit={handleSubmit(onSubmit)}>
@@ -81,7 +83,7 @@ const onSubmit = (data, r) => {
                                 />
                                 <div className="line"></div>
                             </div>
-                            <span classname="error-message">
+                            <span className="error-message">
                                 {errors.name && errors.name.message}
                             </span>
                             {/* Phone input */}
@@ -101,7 +103,7 @@ const onSubmit = (data, r) => {
                                 />
                                 <div className="line"></div>
                             </div>
-                            <span classname="error-message">
+                            <span className="error-message">
                                 {errors.phone && errors.phone.message}
                             </span>
                             {/* Email input */}
@@ -124,7 +126,7 @@ const onSubmit = (data, r) => {
                                 />
                                 <div className="line"></div>
                             </div>
-                            <span classname="error-message">
+                            <span className="error-message">
                                 {errors.email && errors.email.message}
                             </span>
                             {/* Subject input */}
@@ -143,7 +145,7 @@ const onSubmit = (data, r) => {
                                 />
                                 <div className="line"></div>    
                             </div>
-                            <span classname="error-message">
+                            <span className="error-message">
                                 {errors.subject && errors.subject.message}
                             </span>
                         </div>
@@ -165,7 +167,7 @@ const onSubmit = (data, r) => {
                                 />
                                 <div className="line"></div>
                             </div>
-                            <span classname="error-message">
+                            <span className="error-message">
                                 {errors.description && errors.description.message}
                             </span>
                             <button
