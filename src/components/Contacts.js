@@ -50,13 +50,13 @@ const onSubmit = (data, r) => {
   }
 
     return (
-        <div className="contacts">
+        <div id="contacts" className="contacts">
             <div className="text-center">
                 <h1>Contact Me</h1>
                 <p>Please fill out the form and describe your project needs and 
                     I'll contact you as soon as possible. Thank you.</p>
                  {/* hook  */}
-                <span className="sucess-message">{successMessage}</span>
+                <span className="success-message">{successMessage}</span>
             </div>      
             <div className="container">
                 <form onSubmit={handleSubmit(onSubmit)}>
