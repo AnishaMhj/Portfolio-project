@@ -74,7 +74,7 @@ nav .navbar-nav li a.active {
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
-nav .navbar-nav li a.active:focus {
+nav .navbar-nav li a:focus {
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
@@ -89,7 +89,7 @@ nav .navbar-nav li a:hover {
   background: url(background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .header-wrapper .main-info {
@@ -555,6 +555,29 @@ nav .navbar-nav li a:hover {
 .sucess-message {
   font-weight: 900;
   color: var(--primary-green);
+}
+
+/*  FOOTER
+=======================================*/
+.footer {
+  background: var(--primary-black);
+  color: var(--primargy-dark-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primargy-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor: pointer;
+}
+
+.footer .d-flex p {
+  margin-bottom: 0;
 }
 
 /*  MEDIA QUESIES

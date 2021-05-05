@@ -5,7 +5,7 @@ import TestimonialsCarousel from "./TestimonialsCarousel";
 
 const Testimonials = () => {
     return (
-        <div className="testimonials">
+        <div id="testimonials" className="testimonials">
             <div className="overlay"></div>
             <h1>My happy clients</h1>
             <div className="container">
