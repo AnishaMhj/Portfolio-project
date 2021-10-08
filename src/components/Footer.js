@@ -24,14 +24,14 @@ const Footer = () => {
                     <div className="col-lg-3 col-md-6 col-sm-6">
                         <div className="row">
                             <div className="col">
-                                <a className="footer-nav">Home</a> <br/>
-                                <a className="footer-nav">About-me</a> <br/>
-                                <a className="footer-nav">Services</a> <br/>
+                                <a href="#" className="footer-nav">Home</a> <br/>
+                                <a href="#" className="footer-nav">About-me</a> <br/>
+                                <a href="#" className="footer-nav">Services</a> <br/>
                             </div>
                             <div className="col">
-                                <a className="footer-nav">Experience</a> <br/>
-                                <a className="footer-nav">Portfolio</a> <br/>
-                                <a className="footer-nav">Contacts</a> <br/>
+                                <a href="#" className="footer-nav">Experience</a> <br/>
+                                <a href="#" className="footer-nav">Portfolio</a> <br/>
+                                <a href="#" className="footer-nav">Contacts</a> <br/>
                             </div>
                         </div>
                     </div>
