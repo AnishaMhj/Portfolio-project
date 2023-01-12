@@ -21,8 +21,9 @@ const Services = () => {
             <h1 className="py-5">My services</h1>
             <div className="container">
                 <div className="row">
+                    {/* data denotes the 1st object of the  loop */}
                     {servicesData.map((data) =>
-                        <ServiceBlock />
+                        <ServiceBlock value={data} />
                     )}
                 </div>
             </div>
