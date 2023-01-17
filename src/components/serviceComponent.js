@@ -1,13 +1,11 @@
 import React from "react";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faGoogle } from "@fortawesome/free-brands-svg-icons";
 import { faDesktop, faFileCode } from "@fortawesome/free-solid-svg-icons";
-
 import ServiceBlock from './serviceBlock';
 
 const servicesData = [
     {
-        fontIcon: faDesktop,
+        fontIcon: faDesktop,    //icons as name not string
         serviceTitle: 'Web Design',
         serviceDescription: 'I approach each project individually and always focus on the result.'
     },
