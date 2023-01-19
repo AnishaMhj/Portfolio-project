@@ -11,12 +11,12 @@ import Testimonials from "./components/Testimonials";
 import Contacts from "./components/Contacts.js";
 import Footer from "./components/Footer.js";
 
-import Particles from "react-particles-js";
+// import Particles from "react-particles-js";
 
 function App() {
   return (
     <div>
-
+      {/* 
       <Particles
         className="particles-canvas"
         params={{
@@ -37,7 +37,7 @@ function App() {
             }
           }
         }}
-      />
+      /> */}
       <Navbar />
       <Header />
       <AboutMe />
