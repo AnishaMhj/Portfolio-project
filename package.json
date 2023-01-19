@@ -1,5 +1,5 @@
 {
-  "homepage": "http://anishamhj.github.io/Portfolio-project/",
+  "homepage": ".",
   "name": "portfolio-project",
   "version": "0.1.0",
   "private": true,
@@ -25,6 +25,7 @@
     "react-scroll": "^1.8.9",
     "react-share": "^4.4.1",
     "react-typed": "^1.2.0",
+    "serve": "^14.1.2",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
