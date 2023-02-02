@@ -7,9 +7,10 @@ import AboutMe from "./components/AboutMe";
 import Services from "./components/serviceComponent";
 import Experience from "./components/Experience";
 import Portfolio from "./components/Portfolio";
-import Testimonials from "./components/Testimonials";
+// import Testimonials from "./components/Testimonials";
 import Contacts from "./components/Contacts.js";
 import Footer from "./components/Footer.js";
+
 
 // import Particles from "react-particles-js";
 
@@ -38,13 +39,14 @@ function App() {
           }
         }}
       /> */}
+      {/* <PreLoader /> */}
       <Navbar />
       <Header />
       <AboutMe />
       <Services />
       <Experience />
       <Portfolio />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contacts />
       <Footer />
     </div>

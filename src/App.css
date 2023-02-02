@@ -29,6 +29,21 @@ body {
   font-weight: 300 !important;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+/* PRE-LOADER
+=======================================*/
+.preloader {
+  background: var(--primargy-light-grey);
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  color: #fff;
+}
+
 /* NAVBAR
 =======================================*/
 nav {
