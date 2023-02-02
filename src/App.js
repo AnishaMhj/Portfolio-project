@@ -10,7 +10,7 @@ import Portfolio from "./components/Portfolio";
 // import Testimonials from "./components/Testimonials";
 import Contacts from "./components/Contacts.js";
 import Footer from "./components/Footer.js";
-import PreLoader from "./components/Loader.js"
+
 
 // import Particles from "react-particles-js";
 
