@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 //scroll
-import {Link} from "react-scroll";
+import { Link } from "react-scroll";
 
 
 const Navbar = () => {
@@ -18,31 +18,32 @@ const Navbar = () => {
                         <img className="logo" src={logo}></img>
                     </a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <FontAwesomeIcon icon={faBars} className="hamMenu" style={ {color: "#fff"} } />
+                        <FontAwesomeIcon icon={faBars} className="hamMenu" style={{ color: "#fff" }} />
                     </button>
 
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav ml-auto">
-                        <li className="nav-item active">
-                            <Link smooth={true} to="home" className="nav-link" href="#">Home <span className="sr-only">(current)</span></Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link smooth={true} to="about" offset={-95} className="nav-link" href="#">About Me</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link smooth={true} to="services" offset={-95} className="nav-link" href="#">Services</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link smooth={true} to="experience" offset={-95} className="nav-link" href="#">Experience</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link smooth={true} to="portfolio" offset={-95} className="nav-link" href="#">Portfolio</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link smooth={true} to="contacts" offset={-95} className="nav-link" href="#">Contact</Link>
-                        </li>
-                    </ul>
-                </div>    
+                        <ul className="navbar-nav ml-auto">
+                            <li className="nav-item active">
+                                {/* Removed smooth = {true} attributes from all Link */}
+                                <Link to="home" className="nav-link" href="#">Home <span className="sr-only">(current)</span></Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to="about" offset={-95} className="nav-link" href="#">About Me</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to="services" offset={-95} className="nav-link" href="#">Services</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to="experience" offset={-95} className="nav-link" href="#">Experience</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to="portfolio" offset={-95} className="nav-link" href="#">Portfolio</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to="contacts" offset={-95} className="nav-link" href="#">Contact</Link>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </div>
